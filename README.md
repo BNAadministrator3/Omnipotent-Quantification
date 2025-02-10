@@ -16,9 +16,9 @@ Hopefully, our proposed quantization method:
 
 **K3**. Ascend 310b1, Ascend 310b4, Cambrian, Rockchip.
 
-**03**. possesses high efficiency.
+**04**. possesses high efficiency.
 
-**K3**. cost model?
+**K4**. cost model?
 
 
 # Potentially valuable scientific issues
