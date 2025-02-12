@@ -53,6 +53,10 @@ For every single model deployed in every single NPU, the Data shown below should
 [20250212] Probably matched. For YOLOv10s, mAP (%) is 46.2 (tested with pth format and ultralytics), 44.34 (tested with onnx format and our code) 44.17 (tested after through our quantization method) 44.12 (tested after through AMCT).
 
 
+# Some know-how
+
+1. We suppose AOE optimization should also be integrated into our framework. 
+
 
 # Significant bugs
 
