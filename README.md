@@ -32,11 +32,15 @@ For every single model deployed in every single NPU, the Data shown below should
 | 4          | onnx Accuracy (%) of mixed quantization model by our quantizing framework |           |
 | 5          | onnx Accuracy (%) of AMCT-like addressed  model from 4                    |           |
 | 6          | Accuracy (%) of om-like addressed model from 5                            |           |
-| 7          | Latency (ms) of om-like-formatted model from 2                            |           |
-| 8          | Latency (ms) of om-like-formatted model from 3                            |           |
-| 9          | Latency (ms) of om-like-formatted model from 5                            |           |
-| oa1        | maximal accuracy (%) drop                                                 |           |
-| oa2        | accuracy (%) drop of ours                                                 |           |
+| 7          | Accuracy (%) of om-like addressed model from 2                            |           |
+| 8          | Accuracy (%) of om-like addressed model from 3                            |           |
+| 9          | Latency (ms) of om-like-formatted model from 2                            |           |
+| 10          | Latency (ms) of om-like-formatted model from 3                            |           |
+| 11          | Latency (ms) of om-like-formatted model from 5                            |           |
+| oa1        | maximal simulated accuracy (%) drop, i.e., diff(2, 4)                                                |           |
+| oa2        | simulated accuracy (%) drop of ours, i.e., diff(2, 3)                                                 |           |
+| oa3        | maximal practical accuracy (%) drop, i.e., diff(7, 8)                                                |           |
+| oa4        | practical accuracy (%) drop of ours, i.e., diff(7, 6)                                                 |           |
 | os1        | maximal speedup                                                           |           |
 | os2        | speedup (%) of ours                                                       |           |
 
