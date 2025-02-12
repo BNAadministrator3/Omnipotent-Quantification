@@ -31,7 +31,7 @@ For every single model deployed in every single NPU, the Data shown below should
 | 3          | onnx Accuracy (%) of full quantized model (e.g., w8a8)                    |           |
 | 4          | onnx Accuracy (%) of mixed quantization model by our quantizing framework |           |
 | 5          | onnx Accuracy (%) of AMCT-like addressed  model from 4                    |           |
-| 6          | Accuracy (%) of om-like addresses model from 5                            |           |
+| 6          | Accuracy (%) of om-like addressed model from 5                            |           |
 | 7          | Latency (ms) of om-like-formatted model from 2                            |           |
 | 8          | Latency (ms) of om-like-formatted model from 3                            |           |
 | 9          | Latency (ms) of om-like-formatted model from 5                            |           |
