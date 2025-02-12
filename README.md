@@ -21,6 +21,28 @@ Hopefully, our proposed quantization method:
 **K4**. cost model?
 
 
+# Standard results format
+For every single model deployed in every single NPU, the Data shown below should be collected:
+
+| **Number** | **Type**                                                                  | **Value** |
+|------------|---------------------------------------------------------------------------|-----------|
+| 1          | pth Accuracy (%) of full precision model                                  |           |
+| 2          | onnx Accuracy (%) of full precision model                                 |           |
+| 3          | onnx Accuracy (%) of full quantized model (e.g., w8a8)                    |           |
+| 4          | onnx Accuracy (%) of mixed quantization model by our quantizing framework |           |
+| 5          | onnx Accuracy (%) of AMCT-like addressed  model from 4                    |           |
+| 6          | Accuracy (%) of om-like addresses model from 5                            |           |
+| 7          | Latency (ms) of om-like-formatted model from 2                            |           |
+| 8          | Latency (ms) of om-like-formatted model from 3                            |           |
+| 9          | Latency (ms) of om-like-formatted model from 5                            |           |
+| oa1        | maximal accuracy (%) drop                                                 |           |
+| oa2        | accuracy (%) drop of ours                                                 |           |
+| os1        | maximal speedup                                                           |           |
+| os2        | speedup (%) of ours                                                       |           |
+
+
+
+
 # Progress
 
 [20250212] Probably matched. For YOLOv10s, mAP (%) is 46.2 (tested with pth format and ultralytics), 44.34 (tested with onnx format and our code) 44.17 (tested after through our quantization method) 44.12 (tested after through AMCT).
