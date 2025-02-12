@@ -55,7 +55,7 @@ For every single model deployed in every single NPU, the Data shown below should
 
 # Some know-how
 
-1. We suppose AOE optimization should also be integrated into our framework. 
+1. We suppose AOE optimization should also be integrated into our method. 
 
 
 # Significant bugs
