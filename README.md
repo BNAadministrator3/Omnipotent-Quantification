@@ -34,15 +34,15 @@ For every single model deployed in every single NPU, the Data shown below should
 | 6          | Accuracy (%) of om-like addressed model from 5                            |           |
 | 7          | Accuracy (%) of om-like addressed model from 2                            |           |
 | 8          | Accuracy (%) of om-like addressed model from 3                            |           |
-| 9          | Latency (ms) of om-like-formatted model from 2                            |           |
-| 10          | Latency (ms) of om-like-formatted model from 3                            |           |
-| 11          | Latency (ms) of om-like-formatted model from 5                            |           |
+| 9          | Latency (ms) of om-like-formatted model from 5                            |           |
+| 10          | Latency (ms) of om-like-formatted model from 2                            |           |
+| 11          | Latency (ms) of om-like-formatted model from 3                            |           |
 | oa1        | maximal simulated accuracy (%) drop, i.e., diff(2, 4)                                                |           |
 | oa2        | simulated accuracy (%) drop of ours, i.e., diff(2, 3)                                                 |           |
 | oa3        | maximal practical accuracy (%) drop, i.e., diff(7, 8)                                                |           |
 | oa4        | practical accuracy (%) drop of ours, i.e., diff(7, 6)                                                 |           |
-| os1        | maximal speedup                                                           |           |
-| os2        | speedup (%) of ours                                                       |           |
+| os1        | maximal speedup, i.e., div(10, 9)                                                           |           |
+| os2        | speedup (%) of ours, i.e., div(10,11)                                                       |           |
 
 
 
