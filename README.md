@@ -62,7 +62,7 @@ For every single model deployed in every single NPU, the Data shown below should
 
 **[2025021001]** Activation quantization as well leads to misaligned scales in the second quantization.
 
-[2025021101] The overly long generation time of onnx files of quantized YOLOv10.
+[2025021101] The overly long generation time of onnx files of quantized YOLOv10, e.g., 20 hours.
 
 
 # Potentially valuable scientific issues
