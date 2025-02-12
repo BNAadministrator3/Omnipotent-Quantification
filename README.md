@@ -1,5 +1,5 @@
 # Omnipotent-Quantification
-This repo integrates our quantization method that enables highly accurate and efficient quantization across different network architectures, tasks, and NPUs.
+This repo integrates our quantization method that enables highly accurate and efficient mixed-precision quantization across different network architectures, tasks, and NPUs.
 
 # Objectives and key results
 Hopefully, our proposed quantization method:
