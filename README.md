@@ -56,7 +56,7 @@ For every single model deployed in every single NPU, the Data shown below should
 # Some know-how
 
 1. We suppose AOE optimization should also be integrated into our method.
-2. re-constructing the whole code in a modular way seems necessary.
+2. Re-constructing the whole code in a modular way seems necessary.
 
 
 # Significant bugs
