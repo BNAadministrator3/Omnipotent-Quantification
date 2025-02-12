@@ -4,15 +4,15 @@ This repo integrates our quantization method that enables highly accurate and ef
 # Objectives and key results
 Hopefully, our proposed quantization method:
 
-**01**. supports quantizatin for different network architectures
+**01**. supports quantization for different network architectures
 
 **K1**. YOLOv10, DINO or H-DETR.
 
-**02**. supports quantizatin for different tasks
+**02**. supports quantization for different tasks
 
 **K2**. object detection, segmentation or/and image generation.
 
-**03**. supports quantizatin for different types of NPUs
+**03**. supports quantization for different types of NPUs
 
 **K3**. Ascend 310b1, Ascend 310b4, Cambrian, Rockchip.
 
@@ -66,4 +66,4 @@ For every single model deployed in every single NPU, the Data shown below should
 
 2. Is the present method already proper for across architectures and tasks? 
 
-3. Slow mixed precision quantizatin scheme generation time. 
+3. Slow mixed precision quantization scheme generation time. 
