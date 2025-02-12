@@ -12,7 +12,7 @@ Hopefully, our proposed quantization method:
 
 **K2**. object detection, segmentation or/and image generation.
 
-**03**. supports quantization for different types of NPUs
+**03**. supports quantization adapted for different types of NPUs
 
 **K3**. Ascend 310b1, Ascend 310b4, Cambrian, Rockchip.
 
