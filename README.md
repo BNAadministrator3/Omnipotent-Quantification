@@ -37,6 +37,7 @@ For every single model deployed in every single NPU, the Data shown below should
 | 9          | Latency (ms) of om-like-formatted model from 5                            |           |
 | 10          | Latency (ms) of om-like-formatted model from 2                            |           |
 | 11          | Latency (ms) of om-like-formatted model from 3                            |           |
+| o0       | diff(4,5)<0.1%    |  True/False  |
 | oa1        | maximal simulated accuracy (%) drop, i.e., diff(2, 4)                                                |           |
 | oa2        | simulated accuracy (%) drop of ours, i.e., diff(2, 3)                                                 |           |
 | oa3        | maximal practical accuracy (%) drop, i.e., diff(7, 8)                                                |           |
