@@ -20,6 +20,13 @@ Hopefully, our proposed quantization method:
 
 **K4**. cost model?
 
+
+# Progress
+
+[20250212] Probably matched. For YOLOv10s, mAP (%) is 46.2 (tested with pth format and ultralytics), 44.34 (tested with onnx format and our code) 44.17 (tested after through our quantization method) 44.12 (tested after through AMCT).
+
+
+
 # Significant bugs
 
 **[2025021001]** Activation quantization as well leads to misaligned scales in the second quantization.
