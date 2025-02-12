@@ -6,7 +6,7 @@ Hopefully, our proposed quantization method:
 
 **01**. supports quantization for different network architectures
 
-**K1**. YOLOv10, DINO or H-DETR.
+**K1**. YOLOv10, DINO or H-DETR or RT-DETRv3.
 
 **02**. supports quantization for different tasks
 
@@ -56,7 +56,7 @@ For every single model deployed in every single NPU, the Data shown below should
 # Some know-how
 
 1. We suppose AOE optimization should also be integrated into our method.
-2. Re-constructing the whole code in a modular way seems necessary.
+2. Re-constructing the whole code in a modular way seems necessary. For instance, different mixed-precision scheme generation strategies, different model output interfaces, and different NPU quantization/compiling tools. 
 
 
 # Significant bugs
