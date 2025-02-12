@@ -10,7 +10,7 @@ Hopefully, our proposed quantization method:
 
 **02**. supports quantization for different tasks
 
-**K2**. object detection, segmentation or/and image generation.
+**K2**. object detection, segmentation or/and image generation or/and Llama3.2-1B.
 
 **03**. supports quantization adapted for different types of NPUs
 
