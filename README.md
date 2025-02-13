@@ -28,8 +28,8 @@ For every single model deployed in every single NPU, the Data shown below should
 |------------|---------------------------------------------------------------------------|-----------|
 | 1          | pth Accuracy (%) of full precision model                                  |           |
 | 2          | onnx Accuracy (%) of full precision model                                 |           |
-| 3          | onnx Accuracy (%) of full quantized model (e.g., w8a8)                    |           |
-| 4          | onnx Accuracy (%) of mixed quantization model by our quantizing framework |           |
+| 3          | onnx Accuracy (%) of completely quantized model (e.g., w8a8)                    |           |
+| 4          | onnx Accuracy (%) of mixed-quantization model by our quantizing framework |           |
 | 5          | onnx Accuracy (%) of AMCT-like addressed  model from 4                    |           |
 | 6          | Accuracy (%) of om-like addressed model from 5                            |           |
 | 7          | Accuracy (%) of om-like addressed model from 2                            |           |
@@ -38,8 +38,8 @@ For every single model deployed in every single NPU, the Data shown below should
 | 10          | Latency (ms) of om-like-formatted model from 2                            |           |
 | 11          | Latency (ms) of om-like-formatted model from 3                            |           |
 | o0       | diff(4,5)<0.1%    |  True/False  |
-| oa1        | maximal simulated accuracy (%) drop, i.e., diff(2, 4)                                                |           |
-| oa2        | simulated accuracy (%) drop of ours, i.e., diff(2, 3)                                                 |           |
+| oa1        | maximal simulated accuracy (%) drop, i.e., diff(2, 3)                                                |           |
+| oa2        | simulated accuracy (%) drop of ours, i.e., diff(2, 4)                                                 |           |
 | oa3        | maximal practical accuracy (%) drop, i.e., diff(7, 8)                                                |           |
 | oa4        | practical accuracy (%) drop of ours, i.e., diff(7, 6)                                                 |           |
 | os1        | maximal speedup, i.e., div(10, 9)                                                           |           |
