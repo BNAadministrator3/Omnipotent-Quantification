@@ -70,6 +70,8 @@ For every single model deployed in every single NPU, the Data shown below should
 
 [2025021101] The overly long generation time of onnx files of quantized YOLOv10, e.g., 20 hours.
 
+**[2025021401]** The discrepancy in mAP between the pth and onnx files is probably due to differences in the resize shapes used in the Ultralytics code and our code for the COCO dataset images. Well done, @lyl0230!
+
 
 # Potentially valuable scientific issues
 
