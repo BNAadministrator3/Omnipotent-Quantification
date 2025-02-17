@@ -79,4 +79,8 @@ For every single model deployed in every single NPU, the Data shown below should
 
 2. Is the present method already proper for across architectures and tasks? 
 
-3. Slow mixed precision quantization scheme generation time. 
+3. Slow mixed precision quantization scheme generation time.
+
+4. Ascend quantizer/dequantizer inference acceleration.
+
+5. How to finetune weights of neural networks to improve their accuracy using simple min-max quantization.
